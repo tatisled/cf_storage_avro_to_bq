@@ -20,7 +20,7 @@ exports.autoAvroToBqFunc = (file, context) => {
 
     console.log(`  Run job to load avro to BQ from template`);
 
-    https.get('https://us-central1-graphite-hook-314808.cloudfunctions.net/avroToBqFunc', (resp) => {
+    https.get('https://us-central1-onboardingproject-319313.cloudfunctions.net/avroToBqFunc', (resp) => {
         let data = '';
 
         // A chunk of data has been received.
