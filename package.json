@@ -1,5 +1,5 @@
 {
-  "name": "auto_avro_to_bq_func",
+  "name": "cf_listen_to_storage_invoke_avro_to_bq",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
